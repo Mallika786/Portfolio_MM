@@ -1,0 +1,235 @@
+.card-body{
+	background-image: url("2.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:100%;
+	height: 280px;
+}
+.card-title{
+	color: white;
+	text-shadow: 4px 2px 3px grey;
+	position: absolute;
+	top: 150px;
+	font-size: 50px;
+	text-decoration: underline;
+}
+.card-text{
+		color: white;
+		text-shadow: 2px 2px 3px grey;
+		position: absolute;
+		top: 210px;
+}
+.card-header{
+	width: 380px;
+	background-image: linear-gradient(#cdb4db,#a2d2ff);
+	position: absolute;
+	left: 590px;
+	top: 300px;
+	border-radius: 20px;
+}
+.nav-link{
+	color: #03045e;
+	font-weight: bolder;
+}
+.welcome{
+	border-radius: 20px;
+	padding: 20px;
+	background-color: #8e7dbe;
+	width: 540px;
+	height:600px;
+	position: absolute;
+	top: 400px;
+	left: 100px;
+}
+.welcome2{
+	border-radius: 20px;
+	padding: 20px;
+	background-color: #b5838d;
+	width: 700px;
+	height:80px;
+	position: absolute;
+	top: 400px;
+	left: 680px;
+	font-weight: bolder;
+	font-family: 'Times New Roman', Times, serif;
+	color: #efcfe3;
+	font-size: 25px;
+}
+.intro{
+	border-radius: 20px;
+	padding: 20px;
+	background-color: #e0aaff;
+	width: 700px;
+	height:500px;
+	position: absolute;
+	top: 500px;
+	left: 680px;
+	font-size: 30px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: #590d22;
+}
+img{
+	height: 500px;
+	width: 400px;
+	top: 50px;
+	position: absolute;
+	left: 70px;
+}
+body{
+	background-image: linear-gradient(40deg,#ffd6ff,#e7c6ff,#c8b6ff);
+	background-size: cover;
+}
+.contact{
+	position: absolute;
+	top: 1500px;
+}
+.container{
+	position: absolute;
+	top: 1150px;
+	left: 80px;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #240046;
+	text-shadow: 1px 1px 1px #c8b6ff;
+}
+
+.abouthead{
+	font-size: 30px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: #6f1d1b;
+	position: absolute;
+	top: 1050px;
+	left:44%;
+	text-shadow: 2px 2px 3px #ff4d6d;
+	background-image: linear-gradient(30deg,#9d4edd,#c77dff,#c8b6ff);
+}
+.col{
+	border-color: #bc6c25;
+	border-style: dotted;
+	border-radius: 20px;
+	background-color: #e5989b;
+	margin: 20px;
+}
+.aboutport{
+	font-size: 30px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: #6f1d1b;
+	position: absolute;
+	top: 2100px;
+	left:44%;
+	text-shadow: 2px 2px 3px #ff4d6d;
+	background-image: linear-gradient(30deg,#9d4edd,#c77dff,#c8b6ff);
+}
+.col1{
+	border-style: double;
+	border-color: #240046;
+	margin: 10px;
+	width: 1500px;
+	position: absolute;
+	top: 1050px;
+}
+.p1{
+	height: 300px;
+	width: 500px;
+	position: absolute;
+	top: 100px;
+	left:430px;
+}
+.p2{
+	height: 300px;
+	width: 500px;
+	position: absolute;
+	top: 100px;
+	left:430px;
+}
+.p3{
+	height: 300px;
+	width: 500px;
+	position: absolute;
+	top: 100px;
+	left:430px;
+}
+.p4{
+	height: 300px;
+	width: 500px;
+	position: absolute;
+	top: 100px;
+	left:430px;
+}
+.p5{
+	height: 300px;
+	width: 500px;
+	position: absolute;
+	top: 100px;
+	left:430px;
+}
+.contact{
+	position: absolute;
+	top: 4600px;
+	background-color: #fed9b7;
+	border-radius: 20px;
+	height: 400px;
+	width: 1000px;
+	padding: 40px;
+	left: 230px;
+}
+.aboutcon{
+	font-size: 30px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: #6f1d1b;
+	text-shadow: 2px 2px 3px #ff4d6d;
+	background-image: linear-gradient(30deg,#9d4edd,#c77dff,#c8b6ff);
+	width: 350px;
+}
+.col-sm-2{
+	font-size: 20px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: #6f1d1b;
+	font-weight: 500;
+}
+.form-control{
+	position: absolute;
+	left: 100px;
+	/* top: 10px; */
+	width: 200px;
+}
+input[type=text], input[type=email], input[type=tel], input[type=password] {
+	width: 100%;
+	padding: 12px;
+	margin: 6px 0;
+	box-sizing: border-box;
+}
+input[type=submit] {
+	background-color: #58b4cd;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.error {
+	color: red;
+	font-size: 0.6em;
+	display:block;
+width:100%;
+text-align:right;
+	height:1.2em;
+}
+.required::before {
+	content: "*";
+	color: red;
+	margin-right: 3px;
+}
+.image-container {
+	display: inline-block;
+}
+.image-container img {
+	transition: transform 0.3s ease-in-out;
+}
+.image-container:hover img {
+	transform: scale(1.2);
+}
+.icon{
+	font-size: 40px;
+}

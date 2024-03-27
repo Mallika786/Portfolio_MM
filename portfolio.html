@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My portfolio</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
+		<script src="jscript.js"></script>	
+		<script>
+			var scrollSpeed = 150;
+			var edgeMargin = 20; 
+			function isNearEdge(x, y) {
+			  return (
+				y < edgeMargin || 
+				y > window.innerHeight - edgeMargin 
+			  );
+			}
+			function handleMouseMove(event) {
+			  var mouseY = event.clientY;
+		  	  if (isNearEdge(0, mouseY)) {
+				var scrollDirection = mouseY < edgeMargin ? -1 : 1;
+				window.scrollBy(0, scrollDirection * scrollSpeed);
+			  }
+			}
+			window.addEventListener("mousemove", handleMouseMove);
+		  </script>
+		  
+	</head>
+	<body>
+		<div class="card text-center">
+			<div class="card-body" align="left">
+				<h5 class="card-title" >Mallika Muskan</h5>
+				<p class="card-text">A student of Bachelors in Information Technology.</p>
+			  </div>
+			<div class="card-header" align="text-center">
+			  <ul class="nav nav-pills card-header-pills">
+				<li class="nav-item">
+					<a class="nav-link" href="#home" >Home</a>
+				  </li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#about">About</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#portfolio">Portfolio</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#contact">Contact</a>
+				</li>
+			  </ul>
+			</div>
+		  </div>
+		  <div class="welcome" id="home">
+			<img src="my.jpeg">
+		  </div>
+		  <div class="welcome2">
+			<p align="center">Hi there, myself Mallika Muskan.<span style="font-size: 20px;">&#128587;</span></p>
+		  </div>
+		  <div class="intro"><p style="position: absolute; top: 100px;">
+			I'm a B.Tech IT student. Beginner in C++, Java, Python. Passionate about sports, particularly kabaddi and cricket. Avid reader, drawn to literature's ability to transport and enlighten. While not adventurous in food, I relish exploring new places. Excited to explore more.</p>
+		  </div>
+		  <div class="abouthead" id="about">More About Me<span style="font-size: 30px;">&#128129;</span></div>
+		  <div class="container text-center">
+			<div class="row">
+			  <div class="col">
+				As a <b>third-year IT student in Banasthali Vidyapith,Jaipur</b> , I've been diving into various aspects of technology and learning along the way. My academic journey has been consistent, with a current <b>CGPA of 9.48 up to the fourth semester</b>. And trying to be consistent further too.<br><span style="font-size: 50px;">&#128187;</span>
+			  </div>
+			  <div class="col">
+				When I'm not buried in books, I find joy in staying <b>active through sports</b>. Whether it's a game of kabaddi or cricket, I appreciate the balance it brings to my life. Alongside physical activities, I have a passion for exploration.<b> Discovering new places</b>, whether they're nearby or far-flung, excites me. However, I tend to stick to familiar routines rather than venturing into unfamiliar territories.<br><span style="font-size: 50px;">&#128218;</span>
+			  </div>
+			  <div class="col">
+				In terms of technical skills, I've dabbled in several programming languages.<b> Java, Python, C++, and C</b> are among the tools in my arsenal. While I'm still honing my skills, I've grasped the basics of <b>web development and machine learning</b>. These fields fascinate me, pushing me to delve deeper into their intricacies.<br><span style="font-size: 50px;">&#128202;</span>
+			  </div>
+			</div>
+			<div class="row" style="position: absolute; top: 400px;">
+			  <div class="col">
+				Projects have been a significant part of my learning journey. From <b>working on a chatbot AI for career counseling to developing a simple face detection program</b>, I've explored diverse applications of technology. In web development, I've tackled projects involving <b>CSS and HTML</b>, each contributing to my understanding of front-end design. Currently, I'm delving into more advanced topics, aiming to bolster my portfolio and skill set.<br><span style="font-size: 50px;">&#128207;</span>
+			  </div>
+			  <div class="col">
+				One project that has captured my attention is <b>liver disease segmentation using AI and ML</b>. It's an in-house endeavor at my campus, where I'm applying machine learning algorithms to segment liver images accurately. This project not only challenges me technically but also aligns with my interest in healthcare applications of technology.<br><span style="font-size: 50px;">&#128209;</span>
+			  </div>
+			  <div class="col">
+				Overall, my journey as a student reflects a blend of academic excellence, technical exploration, and a passion for applying technology to real-world problems. Through projects and coursework, I continue to expand my knowledge and skills, <b>preparing myself for the dynamic world of IT</b>.<br><span style="font-size: 50px;">&#128129;</span>
+			  </div>
+			</div>
+		  </div>
+
+		  <div class="aboutport" id="portfolio">My Works<span style="font-size: 50px;">&#128196;</span></div>
+		  <div class="container text-center">
+			<div class="row row-cols-2">
+			  <div class="col1" style="text-align:justify;"><a href="https://github.com/Mallika786/Minor_Project.git"><div class=" image-container">
+				<img src="p1.png" class="p1" /></a></div>
+				Here, I've utilized CSS and HTML to craft an immersive journey through India's historical marvels. Explore iconic sites such as the Taj Mahal and Golden Temple, enhanced with captivating visuals and engaging narratives. This project seamlessly blends design and history, offering an enriching online exploration of India's diverse heritage.<b>Click on image to see my repository.</b>
+			</div>
+			</div>
+			<div class="row row-cols-2">
+				<div class="col1"  style="position: absolute; top: 1500px; text-align: justify;"><a href="https://github.com/Mallika786/Python_Programs.git">
+				<div class=" image-container"><img src="p2.png" class="p2" /></a></div>
+				Discover my GitHub repositories housing Python programs tailored for diverse tasks. 'Greet' crafts dynamic greetings by time. 'MergePDF' seamlessly combines PDF files. 'Text2Audio' converts text to crisp audio. With straightforward Python code, implementation is effortless. Adapt these programs to your needs for enhanced productivity.<b>Click on image to see my repository.</b>
+				</div>
+			  </div>
+			  <div class="row row-cols-2">
+				<div class="col1"  style="position: absolute; top: 1960px; text-align: justify;"><a href="https://github.com/Mallika786/AI-algorithms.git">
+				<div class=" image-container"><img src="p3.png" class="p3" /></a></div>
+				Explore AI Algorithms repository featuring implementations of Hill Climbing, A* Algorithm, and Uniform Cost Search. These algorithms find applications in robotics, gaming, planning, and optimization. Efficiently solve mathematical optimization problems, graph traversal, and pathfinding with clear implementations provided for each algorithm.<b>Click on image to see my repository.</b>
+				</div>
+			  </div>
+			  <div class="row row-cols-2" >
+				<div class="col1"  style="position: absolute; top: 2410px; text-align: justify;"><a href="#in" onclick="showPopup()"><div class=" image-container">
+				<img src="p4.png" class="p4" id="in" /></a></div>
+				 By harnessing advanced image processing algorithms, I precisely delineate liver regions from medical scans, facilitating diagnostic assessments and treatment strategies. This project is pivotal in ensuring precise segmentation, empowering healthcare providers to make informed decisions and enhance patient outcomes.<b>Click on image to see my repository.</b>
+				</div>
+			  </div>
+			  <div class="row row-cols-2">
+				<div class="col1"  style="position: absolute; top: 2870px; text-align: justify;"><a href="https://github.com/Mallika786/IWT_302_lab.git">
+				<div class=" image-container"><img src="p5.png" class="p5" /></a></div>
+				My Internet and Web Technology assignments encompass 26 exercises, progressing from HTML tables, forms, and lists, to CSS styling, and culminating in JavaScript implementation. Each exercise builds upon the last, fostering proficiency in web development fundamentals and facilitating a comprehensive understanding of internet technologies.<b>Click on image to see my repository.</b>
+				</div>
+			  </div>
+		  </div>
+		  <p class="aboutcon" id="contact" style="position: absolute; left: 600px; top: 4500px;">Get connected with me<span style="font-size: 50px;">&#128242;</span></p>
+		  <form action="#" method="post" onsubmit="if(validateForm()) onSubmitSuccess(); return false;" class="contact">
+			<label for="fname" class="required">Name:</label>
+			<input type="text" id="fname" name="fname">
+			<span id="fnameError" class="error"></span>
+			<label for="email">Email:</label>
+			<input type="email" id="email" class="required" name="email">
+			<span id="emailError" class="error"></span>
+			<label for="msg">Message:</label>
+			<input type="text" id="msg" name="msg">
+			<span id="msgError" class="error"></span>
+			<input type="submit" value="Send!"><br>
+			<p class="icon">Also at:<a href="https://github.com/Mallika786"><i class="fa-brands fa-github" style="position: absolute; left: 200px; top: 415px; color: black;"></i></a><a href="https://www.linkedin.com/in/mallika-muskan"><i class="fa-brands fa-linkedin" style="position: absolute; left: 300px; top: 415px;"></i></a></p>
+		   </form>
+	</body>
+</html>
